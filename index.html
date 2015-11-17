@@ -1,5 +1,5 @@
 <!doctype html>
-<!--Marca como "aplicação" Angular-->
+<!--Marca como aplicação Angular-->
 <html ng-app = 'myApp'>
 	<head />
 	<body>
@@ -9,7 +9,7 @@
 		<script src = 'https://code.angularjs.org/1.4.7/angular.js'></script>
 		<script type = 'text/javascript'>
 			//Cria module (contâiner) e chama a função para instanciar um controller
-			//O parâmetro "[]" deve conter as dependências que, no caso, não existem
+			//O parâmetro "[]" deve conter as dependências (outros modules) que, no caso, não existem
 			angular.module('myApp', []).controller('HelloWorldCtrl', function ($scope) {
 				$scope.helloMessage = 'Hello World!';
 			});
